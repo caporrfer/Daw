@@ -1,0 +1,120 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26-ene-2022, 20:24:56
+    Author     : carlo
+*/
+body {
+  background-image: url("/ProyectoFinal/images/fondo.jpg");
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: bold;
+}
+
+table {
+  border: 1px solid #1C6EA4;
+  background-color: #EEEEEE;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: black;
+  border-color: black;
+  border-style: dotted;
+}
+
+.myButton {
+color: rgb(255, 255, 255); font-size: 18px; line-height: 18px; padding: 13px; border-radius: 10px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid rgb(28, 110, 164); display: inline-block;}
+.myButton:hover {
+background: #1C6EA4; }
+.myButton:active {
+background: #144E75; }
+
+table.steelBlueCols {
+  border: 4px solid #555555;
+  background-color: #555555;
+  width: 400px;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.steelBlueCols td, table.steelBlueCols th {
+  border: 1px solid #555555;
+  padding: 5px 10px;
+}
+table.steelBlueCols tbody td {
+  font-size: 12px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+table.steelBlueCols td:nth-child(even) {
+  background: #398AA4;
+}
+table.steelBlueCols thead {
+  background: #398AA4;
+  border-bottom: 10px solid #398AA4;
+}
+table.steelBlueCols thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: left;
+  border-left: 2px solid #398AA4;
+}
+table.steelBlueCols thead th:first-child {
+  border-left: none;
+}
+
+table.steelBlueCols tfoot td {
+  font-size: 13px;
+}
+table.steelBlueCols tfoot .links {
+  text-align: right;
+}
+table.steelBlueCols tfoot .links a{
+  display: inline-block;
+  background: #FFFFFF;
+  color: #398AA4;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+
+label {
+
+font-family: 'Lucida', sans-serif;
+font-size: 0.8rem;
+font-weight: 400;
+letter-spacing: 0.035rem;
+font-style: normal;
+text-transform: capitalize;
+color: #FFFFFF;
+background-color: #EF2D56;
+border-radius: 0.15rem;
+-webkit-border-radius: 0.15rem;
+-moz-border-radius: 0.15rem;
+padding: 0.3rem 0.4rem;
+border-style: none;
+border-width: 0rem;
+border-color: #EF2D56;
+-webkit-box-shadow: -0.25px 0.75px 9px -0.25px rgba(85,85,85,0.36);
+-moz-box-shadow: -0.25px 0.75px 9px -0.25px rgba(85,85,85,0.36);
+-box-shadow: -0.25px 0.75px 9px -0.25px rgba(85,85,85,0.36);
+
+}
+
+footer{
+    
+    margin:5% 5% 5% 77%;
+        
+    
+}
